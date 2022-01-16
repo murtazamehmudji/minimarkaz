@@ -183,7 +183,7 @@ function initMap() {
 
   // Create a map object, and include the MapTypeId to add
   // to the map type control.
-  var myLatlng = new google.maps.LatLng(51.5165957,-0.1277179);
+  var myLatlng = new google.maps.LatLng(23.194216221867837,75.77323546750105);
   var mapOptions = {
     zoom: 12,
     center: myLatlng

@@ -40,10 +40,10 @@
     <script src="{{ url('/js/navigation.js') }}"></script>
     <script src="{{ url('/js/navigation.fixed.js') }}"></script>
     <script src="{{ url('/js/map.js') }}"></script>
+    <script src="{{ url('/js/main.js') }}"></script>
 
     @yield('page_scripts')
 
-    <script src="{{ url('/js/main.js') }}"></script>
 </body>
 
 </html>

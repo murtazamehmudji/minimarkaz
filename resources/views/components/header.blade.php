@@ -17,7 +17,7 @@
             <ul class="nav-menu align-to-right">
                 <li><a href="{{ url('/') }}">Home</a>
                 </li>
-                <li><a href="{{ url('/') }}">Hosting</a>
+                {{-- <li><a href="{{ url('/') }}">Hosting</a>
                     <ul class="nav-dropdown">
                         <li><a href="{{ url('') }}">NVMe Hosting</a></li>
                         <li><a href="{{ url('') }}">Unlmited Shared Hosting</a></li>
@@ -85,7 +85,7 @@
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li> --}}
                 <li>
                     <a href="{{ url('/about') }}">About</a>
                 </li>
