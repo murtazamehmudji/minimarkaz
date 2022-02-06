@@ -21,11 +21,8 @@
                         <div class="section-heading-line"></div>
                     </div>
                     <div class="text-content-big center-holder mt-25">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>We provide web services to enhance your business globally. Mini Markaz was formed in 2010 and is serving more than 100 companies now.
+                            We have also developed web hosting portal for the web hosting resellers and direct businessman.</p>
                     </div>
                 </div>
             </div>
@@ -44,10 +41,7 @@
                         <div class="section-heading-line"></div>
                     </div>
                     <div class="text-content-big">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse.</p>
+                        <p>We analyze your business and provide the best solutions for SEO, Digital marketing and web hosting services. These services boost your business exposure and make it scalable over the globe.</p>
                     </div>
                     <div class="row mt-50">
                         <div class="col-md-4 col-sm-12 col-12">
@@ -87,16 +81,14 @@
             <div class="section-heading center-holder">
                 <h3 class="bold">First class business solutions since 1997.</h3>
                 <div class="section-heading-line"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt
-                    ut<br>labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>Mini Markaz solutions have been serving since 2010<br>labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
             <div class="row mt-40">
                 <div class="col-md-4 col-sm-4 col-12">
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 center-holder"><i
                             class="icon-shield-1"></i>
                         <h4>Business Solutions</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore .
+                        <p>Get the best business solutions available in the market.
                         </p>
                         {{-- <a href="#">Learn More <i class="fas fa-chevron-right"></i></a> --}}
                     </div>
@@ -105,8 +97,7 @@
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 center-holder"><i
                             class="icon-target2"></i>
                         <h4>High Performance</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore .
+                        <p>Get yourself high performance servers for hosting and make it to the next level.
                         </p>
                         {{-- <a href="#">Learn More <i class="fas fa-chevron-right"></i></a> --}}
                     </div>
@@ -115,8 +106,7 @@
                     <div class="feature-block-2 feature-bordered feature-shadow feature-bg inner-40 center-holder"><i
                             class="icon-compass2"></i>
                         <h4>Professional Approach</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore .
+                        <p>Get support from expertise professionals.
                         </p>
                         {{-- <a href="#">Learn More <i class="fas fa-chevron-right"></i></a> --}}
                     </div>
@@ -136,10 +126,7 @@
                         <div class="section-heading-line"></div>
                     </div>
                     <div class="text-content-big">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse.</p>
+                        <p>The more expanded your business is. The more you earn. Make your business to the next level by expanding it over the internet.</p>
                     </div>
                     <div class="row mt-40">
                         <div class="col-md-4 col-sm-4 col-12">
@@ -165,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div class="section-block">
+    {{-- <div class="section-block">
         <div class="container">
             <div class="owl-carousel owl-theme carousel-single-item-autoplay">
                 <div class="testmonial-simple"><img src="img/content/testmonials/t-5.jpg" alt="img">
@@ -200,7 +187,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="section-block-grey section-sm">
         <div class="container">
             <div class="owl-carousel owl-theme clients" id="clients">

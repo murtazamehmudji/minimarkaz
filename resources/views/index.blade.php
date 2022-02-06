@@ -9,9 +9,11 @@
                         <h4 class="extra-light uppercase animated fadeInDown">Expect nothing less than perfect</h4>
                         <h2 class="extra-light uppercase animated fadeInDown">Design, Development, Marketing</h2>
                         <h5 class="light uppercase animated fadeInUp">Crafting visually stunning memorable experiences
-                            for web and interfaces.</h5>
-                        <div class="animated fadeInUp mt-30"> <a href="#"
-                                class="primary-button semi-rounded button-lg w-300">Start my Project</a> </div>
+                            for web and interfaces.
+                        </h5>
+                        {{-- <div class="animated fadeInUp mt-30">
+                            <a href="#" class="primary-button semi-rounded button-lg w-300">Start my Project</a>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -21,9 +23,11 @@
                         <h4 class="extra-light uppercase animated fadeInDown">We’re on the top of everything</h4>
                         <h2 class="extra-light uppercase animated fadeInDown">Design solutions for any media</h2>
                         <h5 class="light uppercase animated fadeInUp">Digitally forward creative. Connected creativity.
-                            We are intelligence in action.</h5>
-                        <div class="animated fadeInUp mt-30"> <a href="#"
-                                class="white-button semi-rounded button-lg w-300">Purchase Now</a> </div>
+                            We are intelligence in action.
+                        </h5>
+                        {{-- <div class="animated fadeInUp mt-30">
+                            <a href="#" class="white-button semi-rounded button-lg w-300">Purchase Now</a>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -35,8 +39,8 @@
                         <h2 class="extra-light uppercase animated fadeInDown">Having a plan feels good</h2>
                         <h5 class="light uppercase animated fadeInUp">Digitally forward creative. Connected creativity.
                             We are intelligence in action.</h5>
-                        <div class="animated fadeInUp mt-30"> <a href="#"
-                                class="primary-button semi-rounded button-lg w-300">Purchase Now</a> </div>
+                        {{-- <div class="animated fadeInUp mt-30"> <a href="#"
+                                class="primary-button semi-rounded button-lg w-300">Purchase Now</a> </div> --}}
                     </div>
                 </div>
             </div>
@@ -50,8 +54,11 @@
             <div class="section-heading center-holder"><small>Full Service Web Design Agency</small>
                 <h2 class="bold">Where our solutions become your internet reality</h2>
                 <div class="section-heading-line"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt
-                    ut<br>labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>
+                    Escalate your business with accessibility from anywhere in the world
+                    <br>
+                    We expose your business globally by creating best possible solutions over the internet
+                </p>
             </div>
             <div class="row mt-40">
                 <div class="col-md-4 col-sm-6 col-12">
@@ -59,8 +66,7 @@
                         <div class="feature-float-icon"><i class="icon-key"></i></div>
                         <div class="feature-float-content">
                             <h4>Strategy & Planning</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna.</p>
+                            <p>Plan all your requirements and expand your business.</p>
                         </div>
                     </div>
                 </div>
@@ -69,8 +75,7 @@
                         <div class="feature-float-icon"><i class="icon-school-material"></i></div>
                         <div class="feature-float-content">
                             <h4>UI Design</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna.</p>
+                            <p>Create an efficient design for best user experience.</p>
                         </div>
                     </div>
                 </div>
@@ -79,8 +84,7 @@
                         <div class="feature-float-icon"><i class="icon-computer"></i></div>
                         <div class="feature-float-content">
                             <h4>Web Development</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna.</p>
+                            <p>Get your business over the internet.</p>
                         </div>
                     </div>
                 </div>
@@ -89,8 +93,7 @@
                         <div class="feature-float-icon"><i class="icon-seo2"></i></div>
                         <div class="feature-float-content">
                             <h4>SEO Optimization</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna.</p>
+                            <p>Be the first to appear when someone searches something related to your business.</p>
                         </div>
                     </div>
                 </div>
@@ -99,8 +102,7 @@
                         <div class="feature-float-icon"><i class="icon-exchange3"></i></div>
                         <div class="feature-float-content">
                             <h4>UX & Ecommerce</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna.</p>
+                            <p>Get your products online and increase your sales.</p>
                         </div>
                     </div>
                 </div>
@@ -109,13 +111,12 @@
                         <div class="feature-float-icon"><i class="icon-cloud-computing2"></i></div>
                         <div class="feature-float-content">
                             <h4>Content Marketing</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna.</p>
+                            <p>Get your business upgraded with digital marketing.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="center-holder mt-20"><a href="#" class="primary-button button-md">View All Services</a></div>
+            {{-- <div class="center-holder mt-20"><a href="#" class="primary-button button-md">View All Services</a></div> --}}
         </div>
     </div>
     <div class="section-block-parallax jarallax" data-jarallax data-speed="0.6"
@@ -134,10 +135,7 @@
                         <div class="section-heading-line"></div>
                     </div>
                     <div class="text-content-big">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse. Ut enim ad minim veniam.</p>
+                        <p>Everything is possible. We make it possible to expose your business globally. We provide various services like Content Marketing, SEO Optimization, Web Development, etc.</p>
                     </div>
                     <div class="row mt-30">
                         <div class="col-md-4 col-sm-4 col-12">
@@ -169,7 +167,7 @@
             </div>
         </div>
     </div>
-    <div class="section-block">
+    {{-- <div class="section-block">
         <div class="container">
             <div class="section-heading center-holder"><small>Your technology partner</small>
                 <h2 class="bold">Award winning projects</h2>
@@ -290,7 +288,7 @@
             <div class="center-holder mt-60"><a href="#" class="primary-button-bordered button-md">View All Projects</a>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="section-block-bg right-position" style="background-image: url('img/content/web/homebg1.jpg');">
         <div class="container">
             <div class="row">
@@ -300,9 +298,7 @@
                         <div class="section-heading-line"></div>
                     </div>
                     <div class="text-content-big mt-10">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodoconsequat.</p>
+                        <p>We create beautiful websites with best UI/UX. We also provide online services like SEO, Digital Marketing, etc.</p>
                     </div>
                     <ul class="primary-list">
                         <li><i class="fa fa-check-circle"></i>Effective recruitment methodology, build successful teams
@@ -310,7 +306,7 @@
                         <li><i class="fa fa-check-circle"></i>Strategic workforce planning, Office & Administrative</li>
                         <li><i class="fa fa-check-circle"></i>Relevant Business Knowledge, Remote Support</li>
                     </ul>
-                    <div class="mt-30"><a href="{{ url('/contact') }}" class="primary-button button-sm">Contact Us</a></div>
+                    <div class="mt-30"><a href="{{ route('contact') }}" class="primary-button button-sm">Contact Us</a></div>
                 </div>
             </div>
         </div>
@@ -393,10 +389,12 @@
                 <div class="col-md-5 col-sm-6 col-12">
                     <div class="contact-form-md white-background shadow-primary">
                         <h5 class="center-holder">Let's talk about your Project.</h5>
-                        <form method="get" action="#" class="mt-30"><input type="text" name="name"
-                                placeholder="Your Name"><input type="email" name="email" placeholder="Your Email"><textarea
-                                name="message" placeholder="Your Message"></textarea><button type="submit"
-                                class="primary-button button-sm full-width">Send Message</button></form>
+                        <form method="get" action="#" class="mt-30">
+                            <input type="text" name="name" placeholder="Your Name">
+                            <input type="email" name="email" placeholder="Your Email">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                            <button type="submit" class="primary-button button-sm full-width">Send Message</button>
+                        </form>
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-6 col-12">
@@ -407,10 +405,7 @@
                             <div class="section-heading-line"></div>
                         </div>
                         <div class="text-content-big">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur.</p>
+                            <p>We would glad to hear from you. Please feel free to fill up your details and we will get back to as soon as possible.</p>
                         </div>
                         <div class="row mt-20">
                             <div class="col-md-6 col-sm-12 col-12">

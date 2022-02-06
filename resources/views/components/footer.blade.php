@@ -4,8 +4,8 @@
             <div class="col-md-4 col-sm-6 col-12">
                 <h3>About Us</h3><a href="#"><img src="img/content/business/logos/logo-footer.png" alt="img"></a>
                 <div class="mt-20">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut
-                        labore et dolore magna aliqua.
+                    <p>
+                        We make you Global
                     </p>
                 </div>
                 <ul class="footer-style-1-social-links">
@@ -36,12 +36,12 @@
             <div class="col-md-2 col-sm-6 col-12">
                 <h3>Quick Links</h3>
                 <ul class="footer-style-1-links">
-                    {{-- <li><a href="#">Privacy Policy</a></li> --}}
-                    <li><a href="{{ url('/about') }}">About Us</a></li>
+                    <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
+                    <li><a href="{{ route('about') }}">About Us</a></li>
                     {{-- <li><a href="#">Company History</a></li>
                     <li><a href="#">Recent Posts</a></li> --}}
-                    <li><a href="{{ url('/services') }}">Our Services</a></li>
-                    <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+                    {{-- <li><a href="{{ url('/services') }}">Our Services</a></li> --}}
+                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                 </ul>
             </div>
         </div>
