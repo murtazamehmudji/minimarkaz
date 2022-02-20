@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,18 +14,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-})->name('home');
+Route::get('/', [PagesController::class, 'index'])->name('home');
 
-Route::get('/about', function () {
-    return view('pages.about');
-})->name('about');
+Route::get('/about',  [PagesController::class, 'about'])->name('about');
 
-Route::get('/contact', function () {
-    return view('pages.contact');
-})->name('contact');
+Route::get('/contact',  [PagesController::class, 'contact'])->name('contact');
 
-Route::get('/privacy', function () {
-    return view('pages.privacy');
-})->name('privacy');
+Route::get('/privacy',  [PagesController::class, 'privacy'])->name('privacy');
+
+/*
+|--------------------------------------------------------------------------
+| Hosting Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('/hosting/nvme', function () {
+    return view('hosting.nvme');
+})->name('hosting_nvme');
+
+Route::get('/hosting/shared', function () {
+    return view('hosting.shared');
+})->name('hosting_shared');
+
+Route::get('/hosting/ssd', function () {
+    return view('hosting.ssd');
+})->name('hosting_ssd');

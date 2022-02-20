@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-12">
-                <h3>About Us</h3><a href="#"><img src="img/content/business/logos/logo-footer.png" alt="img"></a>
+                <h3>About Us</h3><a href="#"><img src="{{ url('img/content/business/logos/logo-footer.png') }}" alt="img"></a>
                 <div class="mt-20">
                     <p>
                         We make you Global
@@ -24,7 +24,7 @@
                     <li><span>28.03.2018</span><a href="#">Kudos design and code team!</a></li>
                 </ul>
             </div> --}}
-            <div class="col-md-3 col-sm-6 col-12">
+            <div class="col-md-4 col-sm-6 col-12">
                 <h3>Contact Info</h3>
                 <ul class="footer-style-1-contact-info">
                     <li><i class="fa fa-phone"></i> <span>+91 896 23 520 53</span></li>
@@ -33,7 +33,7 @@
                     {{-- <li><i class="fa fa-phone-square"></i> <span>+11 (0) 123 456 7890</span></li> --}}
                 </ul>
             </div>
-            <div class="col-md-2 col-sm-6 col-12">
+            <div class="col-md-4 col-sm-6 col-12">
                 <h3>Quick Links</h3>
                 <ul class="footer-style-1-links">
                     <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
@@ -50,7 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-12">
-                    <h5>Zensweb © 2022. All Rights Reserved.</h5>
+                    <h5>Zensweb © {{ now()->year }}. All Rights Reserved.</h5>
                 </div>
                 {{-- <div class="col-md-6 col-sm-6 col-12">
                     <ul class="footer-style-1-bar-links">

@@ -6,8 +6,8 @@
         <div class="container">
             <h1>Contact us</h1>
             <ul>
-                <li><a href="{{ url('/') }}">Home</a></li>
-                <li><a href="{{ url('/contact') }}">Contact us</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('contact') }}">Contact us</a></li>
             </ul>
         </div>
     </div>

@@ -2,8 +2,8 @@
     <nav id="navigation4" class="container navigation">
         <div class="nav-header">
             <a class="nav-brand" href="{{ url('/') }}">
-                <img src="img/logos/logo-light.png" alt="logo" id="light_logo">
-                <img src="img/logos/logo.png" alt="logo" id="main_logo">
+                <img src="{{ url('img/logos/logo-light.png') }}" alt="logo" id="light_logo">
+                <img src="{{ url('img/logos/logo.png') }}" alt="logo" id="main_logo">
             </a>
             <div class="nav-toggle"></div>
         </div>
@@ -15,16 +15,17 @@
         </div> --}}
         <div class="nav-menus-wrapper">
             <ul class="nav-menu align-to-right">
-                <li><a href="{{ url('/') }}">Home</a>
+                <li>
+                    <a href="{{ route('home') }}">Home</a>
                 </li>
-                {{-- <li><a href="{{ url('/') }}">Hosting</a>
+                <li><a href="{{ route('home') }}">Hosting</a>
                     <ul class="nav-dropdown">
-                        <li><a href="{{ url('') }}">NVMe Hosting</a></li>
-                        <li><a href="{{ url('') }}">Unlmited Shared Hosting</a></li>
-                        <li><a href="{{ url('') }}">Unlmited SSD Hosting</a></li>
+                        <li><a href="{{ route('hosting_nvme') }}">NVMe Hosting</a></li>
+                        <li><a href="{{ route('hosting_shared') }}">Unlmited Shared Hosting</a></li>
+                        <li><a href="{{ route('hosting_ssd') }}">Unlmited SSD Hosting</a></li>
                     </ul>
                 </li>
-                <li><a href="{{ url('/') }}">Reseller Plans</a>
+                {{-- <li><a href="{{ url('/') }}">Reseller Plans</a>
                     <ul class="nav-dropdown">
                         <li><a href="{{ url('') }}">NVMe Reseller Hosting</a></li>
                     </ul>
@@ -87,10 +88,10 @@
                     </ul>
                 </li> --}}
                 <li>
-                    <a href="{{ url('/about') }}">About</a>
+                    <a href="{{ route('about') }}">About</a>
                 </li>
                 <li>
-                    <a href="{{ url('/contact') }}">Contact</a>
+                    <a href="{{ route('contact') }}">Contact</a>
                 </li>
             </ul>
         </div>
