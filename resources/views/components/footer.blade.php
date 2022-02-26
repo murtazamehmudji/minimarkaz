@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-6 col-12">
-                <h3>About Us</h3><a href="#"><img src="{{ url('img/content/business/logos/logo-footer.png') }}" alt="img"></a>
+                <h3>About Us</h3><a href="#"><img src="{{ url('img/logos/logo-light.png') }}" alt="img"></a>
                 <div class="mt-20">
                     <p>
                         We make you Global
